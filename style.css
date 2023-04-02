@@ -1,0 +1,208 @@
+
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+:root{
+    --corbody:#CCCCCC;
+    --corbody2:#808080;
+    --cor01rosa:#FFB3D9;
+    --cor02rosa:#84315B;
+    --font1:'Passion One', cursive;
+    --font2:Verdana,Geneva,Tahoma,sans-serif;
+    --font3:'Sriracha', cursive;
+}
+/* Manutenção é importante */
+body{
+    background-color: #80808079;
+    
+}
+img.bb{
+    max-width: 100px;
+    max-height: 130px;
+    border: 3px solid var(--cor02rosa);
+    border-radius: 45%;
+    
+    
+}
+div#mm{
+    display: block;
+    text-align: center;
+    color: #5f2441;
+    font-size: 1.4em;
+    
+}
+div#mm > h1{
+    text-shadow: 1px 1px 1px black;
+    font-family: var(--font3);
+    padding: 0px;
+}
+div#mm > h1{
+    margin:0px;
+    padding: 0px;
+}
+nav{
+    padding-top: 0px;
+    box-shadow: 1px 2px 6px 0px black;
+    border-radius: 7px 7px 7px 7px ;
+
+}
+section{
+    
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+    
+    
+}
+div.links{
+    background-color: var(--cor01rosa);
+    border-radius: 0px 0px 7px 7px ;
+    padding: 4px;
+    text-align: center;
+    
+}
+div.links > a{
+    text-decoration: none;
+    padding-left: 9px;
+    color: rgb(230, 140, 140);
+    font-size: 1.2em;   
+    border-radius: 6px;   
+    transition: 0.6s;
+    
+}
+.links  a:hover{
+    background-color:#84315B ;
+    font-size: 1.3em;
+    box-shadow: 1px 1px 3px black;
+}
+section.imagem{
+    background-color: var(--corbody2);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    background-position: top center;
+    border-radius: 7px 7px 0px 0px;
+
+   
+   
+}
+    
+      
+section#img1{
+    background-image: url("Imagens/morangocapa.jpg");
+    
+    
+}    
+
+main{
+    margin-top: 10px;
+    background-color: var(--corbody);
+    
+    
+    
+}
+section.imgnormal{
+    display: block;  
+    margin: auto;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    
+}
+.imgnormal p{
+    color: rgb(223, 171, 203);
+    margin-top: 0px;
+    padding-bottom: 4px;
+    text-align: center;
+}
+div#fo{
+    display: block;
+    margin: auto;
+    margin-bottom: 0px;
+    background-color: #794860;
+    width: 40vw;
+    border-radius: 10px;
+    box-shadow:  1px 1px 7px 2px black;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+    
+img#bunita1{
+    
+    width: 40vw;
+    border-radius: 10px 10px 0px 0px ;
+}
+
+section.imh{
+    background-color: #79486073;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center right;
+    
+}
+.imh > h3{
+    font-size: 1.9em;
+    width: 400px;
+    height: 200px;
+    background-color: rgba(128, 128, 128, 0.411);
+    padding-left: 13px;
+    font-family: var(--font3);
+}
+section#img2{
+    background-image: url("Imagens/molango\ flor.jpg");
+    box-shadow:2px 2px 5px 2px black;
+    
+}
+section.vid{
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center left;
+}
+.vid > h3{
+    font-size: 1.9em;
+    width: 400px;
+    height: 200px;
+    background-color: rgba(128, 128, 128, 0.411);
+    padding-left: 13px;
+    font-family: var(--font3);
+    padding: 20px;
+}
+section#imvd{
+    background-image: url("Imagens/VID-20230115-WA0006_001_3.gif");
+    box-shadow:2px 2px 5px 2px black;
+    
+}
+section.fn{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top left;
+}
+.fn > h3{
+    font-size: 1.9em;
+    width: 400px;
+    height: 200px;
+    background-color: rgba(128, 128, 128, 0.411);
+    padding-left: 13px;
+    font-family: var(--font3);
+    padding: 20px;
+}
+section#imfn{
+    background-image: url("Imagens/eu\ e\ ela.png");
+    margin-top: 5px;
+    margin-bottom: 12px;
+    box-shadow:2px 2px 5px 2px black;
+}
+footer{
+ background-color: #808080;
+ padding: 1px;
+ margin-left: -10px;
+ margin-right: -10px;
+ text-align: center;
+}
+footer  a{
+    text-decoration: none;
+    color: #84315B;
+}

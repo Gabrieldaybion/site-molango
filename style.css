@@ -142,7 +142,7 @@ section.imh{
 }
 .imh > h3{
     font-size: 1.9em;
-    width: 400px;
+    width: 370px;
     height: 200px;
     background-color: rgba(128, 128, 128, 0.411);
     padding-left: 13px;
@@ -162,7 +162,7 @@ section.vid{
 }
 .vid > h3{
     font-size: 1.9em;
-    width: 400px;
+    width: 370px;
     height: 200px;
     background-color: rgba(128, 128, 128, 0.411);
     padding-left: 13px;
@@ -182,7 +182,7 @@ section.fn{
 }
 .fn > h3{
     font-size: 1.9em;
-    width: 400px;
+    width: 370px;
     height: 200px;
     background-color: rgba(128, 128, 128, 0.411);
     padding-left: 13px;

@@ -178,7 +178,7 @@ section.fn{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    background-position: top left;
+    background-position: center left;
 }
 .fn > h3{
     font-size: 1.9em;
